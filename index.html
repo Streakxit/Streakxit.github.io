@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strrak.web</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            background-image: url('https://cdn.discordapp.com/attachments/1451742172067139767/1452056454222712842/ff84173df7d4e6315ba536b36cb922bf.jpg?ex=69486c74&is=69471af4&hm=0214ba92315cafffefd7c50d191c401b6837b881c7a7bf7e7115c4e39ed00bfb&');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 0 10px;
+        }
+
+        .profile-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 4px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .username {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: white;
+            margin: 0;
+        }
+
+        .links-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+        }
+
+        .link-button:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .link-icon {
+            font-size: 24px;
+            margin-right: 15px;
+            width: 30px;
+            text-align: center;
+        }
+
+        .link-text {
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .main-text {
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .link-options {
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        .feedback {
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        /* Galería de feedback */
+        .feedback-gallery {
+            margin-top: 15px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .feedback-gallery img {
+            width: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Perfil -->
+        <div class="profile-section">
+            <img src="https://cdn.discordapp.com/attachments/1389301037491425370/1452053971333021696/Imagen_2025.jpg?ex=69486a24&is=694718a4&hm=4482d9d3b682ff41086aa301797f1f18fc6c49a4ae2124931ef467c2e1673179&"
+                 alt="Foto de Perfil"
+                 class="profile-pic">
+            <h1 class="username">streak.xit</h1>
+        </div>
+
+        <!-- Links -->
+        <div class="links-section">
+
+            <!-- Discord -->
+            <a href="https://discord.gg/TMezCmJC" target="_blank" class="link-button">
+                <div class="link-icon"><i class="fab fa-discord"></i></div>
+                <div class="link-text">
+                    <span class="main-text">Discord</span>
+                </div>
+                <div class="link-options"><i class="fas fa-ellipsis-v"></i></div>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://chat.whatsapp.com/J3DkrvLZirUFsnXpy4Te0e" target="_blank" class="link-button">
+                <div class="link-icon"><i class="fab fa-whatsapp"></i></div>
+                <div class="link-text">
+                    <span class="main-text">WhatsApp</span>
+                </div>
+                <div class="link-options"><i class="fas fa-ellipsis-v"></i></div>
+            </a>
+
+            <!-- Feedback -->
+            <div class="feedback">feedbacks</div>
+
+            <!-- Imágenes de feedback -->
+  <div class="feedback-gallery">
+    <img src="https://i.imgur.com/8wA2uLo.jpeg" alt="feedback 1">
+    <img src="https://i.imgur.com/GgRt7Jz.jpeg" alt="feedback 2">
+    <img src="https://i.imgur.com/qNmw2n7.jpeg" alt="feedback 3">
+    <img src="https://i.imgur.com/50YvdYO.jpeg" alt="feedback 4">
+    <img src="https://i.imgur.com/IVRumi2.jpeg" alt="feedback 5">
+    <img src="https://i.imgur.com/CTpLVLV.jpeg" alt="feedback 6">
+  </div> 
+      
+    </div>
+</body>
+</html>
